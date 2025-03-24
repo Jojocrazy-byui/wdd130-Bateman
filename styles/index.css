@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
+nav{
+    background: aquamarine;
+    height: 100px;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    width: 20%;
+    /*Trouble, T R B L*/
+}
+
+nav a:hover {
+    color: black;
+}
+
+#logo{
+
+}
+
+#wax{
+
+}
+
+main{
+
+}
+
+#hero{
+
+}
+
+footer{
+
+}
