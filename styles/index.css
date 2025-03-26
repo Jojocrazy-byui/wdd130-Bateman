@@ -1,23 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 nav{
-    background: aquamarine;
+    background: #FFE100;
     height: 100px;
     font-size: 1.5em;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 nav a {
-    color: white;
+    color: #A20021;
+    line-height: 3em;
+    text-align: center;
     text-decoration: none;
     width: 25%;
     /*Trouble, T R B L*/
 }
 
 nav a:hover {
-    color: black;
+    background-color: #A20021;
+    color: white;
 }
 
 #logo{
@@ -26,7 +34,9 @@ nav a:hover {
 }
 
 #wax{
-
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size: 20px;
 }
 
 main{
@@ -34,7 +44,13 @@ main{
 }
 
 #hero{
-
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: clip;
+    margin: 0px;
+    padding: 0px;
 }
 
 footer{
