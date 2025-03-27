@@ -54,5 +54,17 @@ main{
 }
 
 footer{
+    background-color: #92D5E6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+footer a{
+    color: #A20021;
+    line-height: 3em;
+    text-align: center;
+    text-decoration: none;
 }
