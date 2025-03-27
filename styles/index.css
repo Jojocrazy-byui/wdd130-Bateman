@@ -58,6 +58,7 @@ main{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: space-around;
+    max-height: 500px;
 }
 
 .subject img{
@@ -67,15 +68,15 @@ main{
 
 .about{
     grid-column: 2/3;
-    padding: 20px;
+    padding-right: 100px;
 }
-
 
 footer{
     background-color: #92D5E6;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 25px 50px;
 }
 
 footer a{
@@ -88,6 +89,5 @@ footer a{
 footer a:hover{
     background-color: #A20021;
     color: white;
-    padding: 25px 50px;
-    margin-top: 50px;
+    
 }
