@@ -121,7 +121,6 @@ footer a:hover{
     background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGNhbGVuZGFyfGVufDB8fHx8MTY5MjE3NTQ1Ng&ixlib=rb-1.2.1&q=80&w=1080');
     background-size: cover;
     background-position: center;
-    /* overflow: clip; */
     margin: 0px;
     padding: 0px;
 }
@@ -130,7 +129,7 @@ footer a:hover{
     transition: transform 0.3s ease-in-out;
 }
 #hero-calendar img:active {
-    transform: scale(1.5);
+    transform: scale(1.75);
     transition: transform 0.3s ease-in-out;
 }
 #calendar-page {
