@@ -28,11 +28,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #A20021;
+    background-color: #342326;
     color: white;
 }
 
-#logo{
+.logo{
     height: 100px;
     width: 200px;
 }
